@@ -1,0 +1,55 @@
+{
+  "name": "@company/api-client",
+  "version": "2.1.3",
+  "description": "Internal API client library with vulnerabilities for testing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21",
+    
+    "internal-config-lib": "^1.2.0",
+    "company-auth-utils": "^3.1.5",
+    "secret-management": "^2.0.1",
+    "enterprise-logging": "^4.2.0",
+    "internal-api-types": "^1.8.3",
+    
+    "workspace:shared-types": "workspace:^",
+    "file:../shared/validation": "file:../shared/validation",
+    "link:../../tools/dev-utils": "link:../../tools/dev-utils"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^4.9.0",
+    
+    "test-data-generator": "^1.4.2",
+    "mock-server-utils": "^2.1.0",
+    "internal-test-framework": "^5.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonexistent-org/fake-api-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/missing-company/issue-tracker/issues"
+  },
+  "homepage": "https://github.com/fake-enterprise/docs#readme",
+  "author": {
+    "name": "Test Developer",
+    "email": "dev@testcompany.com",
+    "url": "https://github.com/phantom-developer"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.internal.company.com"
+  }
+}
