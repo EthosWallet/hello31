@@ -1,0 +1,64 @@
+{
+  "name": "@company/crypto-utils",
+  "version": "1.4.2",
+  "description": "Internal cryptographic utilities library with GitHub repo jacking vulnerabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "jest --coverage",
+    "lint": "eslint src/",
+    "docs": "typedoc src/"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "node-forge": "^1.3.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.9.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "rollup": "^3.0.0",
+    "typedoc": "^0.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phantom-crypto-org123123123/secure-vault-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonexistent-security123123123/crypto-issues/issues"
+  },
+  "homepage": "https://github.com/missing-crypto-team123/documentation#readme",
+  "author": {
+    "name": "Security Team",
+    "email": "security@company.com",
+    "url": "https://github.com/fake-security-expert"
+  },
+  "contributors": [
+    {
+      "name": "John Crypto",
+      "email": "john@company.com",
+      "url": "https://github.com/phantom-john-crypto"
+    },
+    {
+      "name": "Alice Security", 
+      "email": "alice@company.com",
+      "url": "https://github.com/missing-alice-dev"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["crypto", "security", "encryption", "internal"],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.internal.company.com"
+  },
+  "config": {
+    "documentation_url": "https://github.com/absent-crypto-docs/wiki",
+    "support_url": "https://github.com/vanished-support-team/help-desk/issues",
+    "upstream_repo": "https://github.com/ghost-upstream/crypto-base.git"
+  }
+}
