@@ -14,7 +14,7 @@
     "build": "npm run build --workspaces",
     "test": "npm test --workspaces", 
     "dev": "npm run dev --workspace=apps/frontend",
-    "url": "https://github.com/nonexistent-org/fake-api-client.git"
+    "url": "https://github.com/nonexistent-org123123123/fake-api-client.git"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
