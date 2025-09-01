@@ -19,10 +19,10 @@
     "enterprise-logging": "^4.2.0",
     "internal-api-types": "^1.8.3",
     
-    "workspace:shared-types": "workspace:^",
-    "file:../shared/validation": "file:../shared/validation",
-    "link:../../tools/dev-utils": "link:../../tools/dev-utils",
-    "file:../../../external-libs/crypto-utils": "file:../../../external-libs/crypto-utils"
+    "shared-types": "workspace:^",
+    "shared-validation": "file:../shared/validation",
+    "dev-utils": "link:../../tools/dev-utils",
+    "crypto-utils": "file:../../../external-libs/crypto-utils"
   },
   "devDependencies": {
     "@types/jest": "^29.0.0",
